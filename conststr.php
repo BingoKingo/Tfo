@@ -6,11 +6,11 @@ global $constStr;
 $exts['img'] = ['ico', 'bmp', 'gif', 'jpg', 'jpeg', 'jpe', 'jfif', 'tif', 'tiff', 'png', 'heic', 'webp'];
 $exts['music'] = ['mp3', 'wma', 'flac', 'ape', 'wav', 'ogg', 'm4a'];
 $exts['office'] = ['doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx'];
-$exts['txt'] = ['ags', 'irs', 'gem', 'agm', 'irm', 'bak', 'bat', 'cmd', 'c', 'i', 'cs', 'csx', 'cake', 'cpp', 'cq', 'ocx', 'c++', 'hpp', 'hh', 'hxx', 'h++', 'h', 'ii', 'clj', 'cljs', 'cljc', 'cljx', 'clojure', 'edn', 'coffee', 'cson', 'iced', 'css', 'dts', 'dtsi', 'dtso', 'dift', 'patch', 'rej', 'dockerfile', 'containerfile', 'fs', 'fsi', 'fsx', 'fsscript', 'go', 'dot', 'DOT', 'gv', 'groovy', 'gvy', 'gradle', 'jenkinsfile', 'nf', 'handlebars', 'hbs', 'hjs', 'hlsl', 'hlsli', 'fx', 'bth', 'vsh', 'psh', 'cginc', 'compute', 'html', 'htm', 'shtml', 'jthtml', 'jtht', 'mdoc', 'jsp', 'asp', 'aspx', 'jshtm', 'gitignore_global', 'gitignore', 'npmignore', 'ini', 'java', 'jav', 'js', 'es6', 'mjs', 'cjs', 'pac', 'jsx', 'json', 'bowerrc', 'jscsrc', 'webmanifest', 'js.map', 'css.map', 'ts.map', 'har', 'jslintrc', 'jsonld', 'jsonc', 'eslintrc', 'eslintrc.json', 'jsfmtrc', 'jshintrc', 'swcrc', 'hintrc', 'babelrc', 'code-workspace', 'language-configuration.json', 'less', 'log', '', 'log.?', 'lua', 'mk', 'md', 'mkd', 'mdwn', 'mdown', 'markdown', 'markdn', 'mdtxt', 'mdtext', 'workbook', 'm', 'mm', 'pl', 'pm', 'pod', 't', 'PL', 'psgi', 'p6', 'pl6', 'pm6', 'nqp', 'php', 'php4', 'php5', 'phtml', 'ctp', 'ps1', 'psm1', 'psd1 ', 'pssc', 'psrc', 'properties', 'cfg', 'conf', 'directory', 'gitattributes', 'gitconfig', 'gitmodules', 'editorconfig', 'npmrc', 'pug', 'jade', 'py', 'rpy', 'pyw', 'cpy', 'gyp', 'gypi', 'pyi', 'ipy', 'r', 'rhistory', 'rprofile', 'rt', 'cshtml', 'rb', 'rbx', 'rjs', 'gemspec', 'rake', 'ru', 'erb', 'podspec', 'rbi', 'rs', 'scss', 'code-search', 'shader', 'sh', 'bash', 'bashrc', 'bash_aliases', 'bash_profile', 'bash_login', 'ebuild', 'install', 'profile', 'bash_logout', 'sql', 'dsql', 'swift', 'ts', 'tsx', 'bas', 'cls', 'frm', 'sht', 'wbk', 'vbs', 'vba', 'bas', 'vbe', 'wsf', 'wsc', 'acm', 'acr', 'acf', 'vb', 'brs', 'vbs', 'bas', 'xml', 'xsd', 'ascx', 'atom', 'axml', 'bpmn', 'cpt', 'csl', 'csproj', 'csproj.user', 'xsl', 'xslt', 'yml', 'eyaml', 'eyml', 'yaml', 'txt', 'err', 'omf'];
+$exts['txt'] = ['ags', 'irs', 'gem', 'agm', 'irm', 'bak', 'bat', 'cmd', 'c', 'i', 'cs', 'csx', 'cake', 'cpp', 'cq', 'ocx', 'c++', 'hpp', 'hh', 'hxx', 'h++', 'h', 'ii', 'clj', 'cljs', 'cljc', 'cljx', 'clojure', 'edn', 'coffee', 'cson', 'iced', 'css', 'dts', 'dtsi', 'dtso', 'dift', 'patch', 'rej', 'dockerfile', 'containerfile', 'fs', 'fsi', 'fsx', 'fsscript', 'go', 'gv', 'groovy', 'gvy', 'gradle', 'jenkinsfile', 'nf', 'handlebars', 'hbs', 'hjs', 'hlsl', 'hlsli', 'fx', 'bth', 'vsh', 'psh', 'cginc', 'compute', 'html', 'htm', 'shtml', 'jthtml', 'jtht', 'mdoc', 'jsp', 'asp', 'aspx', 'jshtm', 'gitignore_global', 'gitignore', 'npmignore', 'ini', 'java', 'jav', 'js', 'es6', 'mjs', 'cjs', 'pac', 'jsx', 'json', 'bowerrc', 'jscsrc', 'webmanifest', 'js.map', 'css.map', 'ts.map', 'har', 'jslintrc', 'jsonld', 'jsonc', 'eslintrc', 'eslintrc.json', 'jsfmtrc', 'jshintrc', 'swcrc', 'hintrc', 'babelrc', 'code-workspace', 'language-configuration.json', 'less', 'log', 'log.?', 'lua', 'mk', 'md', 'mkd', 'mdwn', 'mdown', 'markdown', 'markdn', 'mdtxt', 'mdtext', 'workbook', 'm', 'mm', 'pl', 'pm', 'pod', 't', 'PL', 'psgi', 'p6', 'pl6', 'pm6', 'nqp', 'php', 'php4', 'php5', 'phtml', 'ctp', 'ps1', 'psm1', 'psd1 ', 'pssc', 'psrc', 'properties', 'cfg', 'conf', 'directory', 'gitattributes', 'gitconfig', 'gitmodules', 'editorconfig', 'npmrc', 'pug', 'jade', 'py', 'rpy', 'pyw', 'cpy', 'gyp', 'gypi', 'pyi', 'ipy', 'r', 'rhistory', 'rprofile', 'rt', 'cshtml', 'rb', 'rbx', 'rjs', 'gemspec', 'rake', 'ru', 'erb', 'podspec', 'rbi', 'rs', 'scss', 'code-search', 'shader', 'sh', 'bash', 'bashrc', 'bash_aliases', 'bash_profile', 'bash_login', 'ebuild', 'install', 'profile', 'bash_logout', 'sql', 'dsql', 'swift', 'ts', 'tsx', 'bas', 'cls', 'frm', 'sht', 'wbk', 'vbs', 'vba', 'bas', 'vbe', 'wsf', 'wsc', 'acm', 'acr', 'acf', 'vb', 'brs', 'vbs', 'bas', 'xml', 'xsd', 'ascx', 'atom', 'axml', 'bpmn', 'cpt', 'csl', 'csproj', 'csproj.user', 'xsl', 'xslt', 'yml', 'eyaml', 'eyml', 'yaml', 'txt', 'err', 'omf'];
 $exts['video'] = ['mp4', 'webm', 'mkv', 'mov', 'flv', 'blv', 'avi', 'wmv', 'm3u8', 'm3u', 'rm', 'rmvb'];
 $exts['zip'] = ['zip', 'rar', '7z', 'gz', 'tar'];
 $exts['apple'] = ['ipa', 'dmg', 'app', 'pkg'];
-$exts['odo'] = ['wps', 'key', 'numbers', 'key', 'pdf'];
+$exts['odo'] = ['wps', 'key', 'numbers', 'key', 'pdf', 'csv', 'dif', 'docm', 'dotx', 'odt', 'one', 'onepkg', 'onetoc2', 'pot', 'potm', 'potx', 'pps', 'ppsm', 'ppsx', 'pptm', 'prn', 'rtf', 'slk', 'thmx', 'xlam', 'xlsb', 'xlsm', 'xlt', 'xltx', 'xltm', 'one'];
 
 $constStr = [
     'languages' => [
@@ -467,12 +467,12 @@ $constStr = [
         'ar-sa' => 'الليست',
     ],
     'NeedUpdate' => [
-        'en-us' => 'Program can update<br>Click setup in Operate at top.',
-        'zh-cn' => '可以升级程序<br>在上方管理菜单中<br>进入设置页面升级',
-        'zh-tw' => '可以升級程式<br>在上方管理選單中<br>進入設定頁面升級',
-        'ja' => 'プログラムをアップグレードできます<br>上記の管理メニューで<br>アップグレードする設定ページに入ります',
-        'ko-kr' => '프로그램을 업그레이드 할 수 있습니다. <br> 위의 관리 메뉴에서 <br> 업그레이드 할 설정 페이지를 입력하십시오.',
-        'fa' => 'برنامه می تواند آپدیت شود<br>روی گزینه نصب در بالای صفحه کلیک کنید.',
+        'en-us' => 'Program can update Click setup in Operate at top.',
+        'zh-cn' => '可以升级程序 在上方管理菜单中 进入设置页面升级',
+        'zh-tw' => '可以升級程式 在上方管理選單中 進入設定頁面升級',
+        'ja' => 'プログラムをアップグレードできます 上記の管理メニューで アップグレードする設定ページに入ります',
+        'ko-kr' => '프로그램을 업그레이드 할 수 있습니다.   위의 관리 메뉴에서   업그레이드 할 설정 페이지를 입력하십시오.',
+        'fa' => 'برنامه می تواند آپدیت شود روی گزینه نصب در بالای صفحه کلیک کنید.',
         'ar-sa' => 'يمكن ترقية البرنامج في القائمة أعلاه إدارة',
     ],
     'Operate' => [

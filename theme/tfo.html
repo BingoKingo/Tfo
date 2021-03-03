@@ -31,6 +31,7 @@
         .title{text-align:center;margin:0 auto 1rem;letter-spacing:1px;text-shadow:0 1px 15px rgba(27,31,35,1);text-decoration:none;transition-duration:0.3s;border:1px solid rgba(27,31,35,0);height:10px;padding:16px 16px;overflow:hidden;width:fit-content;border-radius:36px;}
         .title:hover{text-shadow:0 1px 15px rgba(27,31,35,0);background-color:rgba(200,200,200,.6);box-shadow:0 1px 15px rgba(27,31,35,.15);}
         .title a{color:#FFFFFF;text-decoration:none;}
+        #title a{font-size:xx-large}
         .list-wrapper{width:88%;margin:0 auto 10px;position:relative;overflow:hidden;border-radius:6px;box-shadow:0 1px 15px rgba(27,31,35,.15);border:1px solid rgba(27,31,35,.15);}    
         .list-header-container{overflow:hidden;background:linear-gradient(to right,rgb(3,102,214,0.9),rgba(3,102,214,0.3))}
         .list-body-container,.list-header-container,.list-wrapper,body{color:#24292e}
@@ -158,6 +159,7 @@
             .list-table td, .list-table th{white-space:nowrap;overflow:auto;text-overflow:unset}
             .size, .updated_at{display:none}
             .list-table td.file,.list-table th.file{width:95%;}
+            #title a{font-size:x-large}
         }
     </style>
     <!--customCss-->
@@ -203,9 +205,9 @@
         </select>
     </div>
 <!--NeedUpdateStart-->
-    <div style='position:absolute;'><font color='red'><!--constStr@NeedUpdate--></font></div>
+    <div style='position:absolute;top:8px'><font color='red'><!--constStr@NeedUpdate--></font></div>
 <!--NeedUpdateEnd-->
-    <h1 class="title">
+        <h1 class="title" id="title">
         <a href="<!--base_path-->"><!--Sitename--></a>
     </h1>
 <!--MultiDiskAreaStart-->

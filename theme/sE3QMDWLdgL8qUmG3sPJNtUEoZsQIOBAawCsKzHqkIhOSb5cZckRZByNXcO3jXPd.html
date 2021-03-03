@@ -35,6 +35,7 @@
         #navt:hover{background-color:transparent;box-shadow:none;}
         #navta ion-icon{font-size:16px}
         .title a{color:#FFFFFF;text-decoration:none;}
+        #title a{font-size:xx-large}
         .list-wrapper{width:88%;margin:0 auto 10px;position:relative;overflow:hidden;border-radius:6px;box-shadow:0 1px 15px rgba(27,31,35,.15);border:1px solid rgba(27,31,35,.15);}    
         .list-header-container{overflow:hidden;background:linear-gradient(to right,rgb(3,102,214,0.9),rgba(3,102,214,0.3))}
         .list-body-container,.list-header-container,.list-wrapper,body{color:#24292e}
@@ -163,6 +164,7 @@
             .list-table td, .list-table th{white-space:nowrap;overflow:auto;text-overflow:unset}
             .size, .updated_at{display:none}
             .list-table td.file,.list-table th.file{width:95%;}
+            #title a{font-size:x-large}
         }
     </style>
     <!--customCss-->
@@ -231,12 +233,12 @@
         </select>
     </div>
 <!--NeedUpdateStart-->
-    <div style='position:absolute;'><font color='red'><!--constStr@NeedUpdate--></font></div>
+    <div style='position:absolute;top:8px'><font color='red'><!--constStr@NeedUpdate--></font></div>
 <!--NeedUpdateEnd-->
 <!--MultiDiskArea2Start-->
-<div style="bottom:-2px;position:fixed;float:left;width:100%;z-index:1;left:0px;">
-    <div class="list-wrapper" id="nav-div" align="center" style="margin: 0 auto;border-radius:6px 6px 0 0;width: calc(88% - 12px);height:0px;">
-        <div class="list-header-container" style="border-radius:6px 6px 0 0;padding:4px">
+<div style="top:-2px;position:fixed;float:left;width:100%;z-index:1;left:0px;">
+    <div class="list-wrapper" id="nav-div" align="center" style="margin: 0 auto;border-radius:0 0 16px 16px;width: calc(88% - 12px);height:0px;">
+        <div class="list-header-container" style="border-radius:0 0 16px 16px;padding:4px">
             <h4 class="title" id="navt" style="padding:2px;display:inline;text-shadow:none;">
                 <a style="color:#24292e" href="<!--base_path-->"><!--Sitename--></a>
             </h4>
@@ -249,7 +251,7 @@
     </div>
 </div>
 <!--MultiDiskArea2End-->
-    <h1 class="title">
+    <h1 class="title" id="title">
         <a href="<!--base_path-->"><!--Sitename--></a>
     </h1>
 <!--MultiDiskAreaStart-->
